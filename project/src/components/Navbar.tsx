@@ -28,7 +28,8 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
     { title: 'About', href: '#about' },
     { title: 'Skills', href: '#skills' },
     { title: 'Projects', href: '#projects' },
-    { title: 'Experiences', href: '#testimonials' },
+    { title: 'Experiences', href: '#experiences' },
+    { title: 'React.js Challenge', href: '#experiences' },
     { title: 'Contact', href: '#contact' },
   ];
 

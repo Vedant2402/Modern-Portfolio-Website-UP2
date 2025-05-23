@@ -37,7 +37,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               className={`text-lg sm:text-xl font-medium ${
                 darkMode ? "text-blue-400" : "text-blue-600"
               }`}
-            >
+            ><br></br><br></br><br></br>
               Hello, I'm
             </h2>
           </div>
@@ -91,7 +91,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               AI-driven upskilling platforms—delivering production-ready
               applications that combine innovation, performance, and
               user-centric design. <br></br>
-              <br></br>Let’s build something extraordinary together!
+              Let’s build something extraordinary together!
             </p>
           </div>
 
