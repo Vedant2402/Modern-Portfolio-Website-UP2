@@ -21,7 +21,7 @@ const FifteenDaysChallenge: React.FC<FifteenDaysChallengeProps> = ({ darkMode })
       name: 'Day 1 - Static Portfolio',
       description: 'A clean and responsive personal portfolio built using React and modern CSS techniques.',
       githubUrl: 'https://github.com/Vedant2402/static-portfolio',
-      liveUrl: 'https://vedant-kankate.netlify.app/',
+      liveUrl: 'https://vedant-kankate1.netlify.app/',
       techStack: ['React', 'TailwindCSS', 'Vercel']
     },
     {
