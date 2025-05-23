@@ -24,8 +24,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       description: 'Developed a 100% scalable Meal Planner Application using Node.js, Express.js, MongoDB Cloud Server, and Svelte.js, integrating the Spoonacular API for meal search & planning.',
       imageUrl: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       category: 'fullstack',
-      githubUrl: 'https://github.com/Vedant2402/meal-planner',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vedant2402/Meal_Planner_App',
       tags: ['Node.js', 'Express.js', 'MongoDB', 'Svelte.js', 'REST API']
     },
     {
@@ -34,8 +33,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       description: 'Developed an AI-driven chatbot for Kayayurveda Clinic, helping users understand their Prakriti through ML-based analysis with 85%+ accuracy.',
       imageUrl: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       category: 'ai',
-      githubUrl: 'https://github.com/Vedant2402/prakriti-bot',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Vedant2402/Chikitishak-ML-Bot',
       tags: ['Python', 'Machine Learning', 'NLP', 'Random Forest']
     },
     {
@@ -44,8 +42,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       description: 'Developed a mobile application to assist 1,000+ underprivileged women in upskilling through interactive learning modules using Flutter and Firebase.',
       imageUrl: 'https://images.pexels.com/photos/7089629/pexels-photo-7089629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       category: 'mobile',
-      githubUrl: 'https://github.com/Vedant2402/sambhav-app',
-      liveUrl: '#',
+      liveUrl: 'https://sambhav-app.flutterflow.app/',
       tags: ['Flutter', 'Firebase', 'AWS S3', 'Mobile Development']
     },
     {
@@ -54,7 +51,6 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       description: 'Implemented a 5-layer CNN model using TensorFlow and Keras to classify fruit quality with 90%+ accuracy, processing 10,000+ fruit images.',
       imageUrl: 'https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       category: 'ai',
-      githubUrl: 'https://github.com/Vedant2402/fruit-quality-assessment',
       tags: ['TensorFlow', 'Keras', 'CNN', 'Computer Vision']
     }
   ];

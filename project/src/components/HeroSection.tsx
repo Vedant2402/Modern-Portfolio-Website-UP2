@@ -77,14 +77,21 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
                 darkMode ? "text-gray-400" : "text-gray-500"
               }`}
             >
-              Hello, I'm Vedant Kankate, A Computer Science Graduate Student at
-              Cal State LA with a strong interest in AI, Cloud Technologies, and
-              Software Development. Proficient in Google Cloud Platform, Docker,
-              and MongoDB. Experienced in developing scalable, client-focused
-              applications. Passionate about innovation, collaboration, and
-              solving real-world problems. Skilled in API development,
-              microservices architecture, and CI/CD pipelines, ensuring
-              efficient and robust software solutions.
+              👋 I'm a Computer Science Graduate Student at Cal State LA,
+              passionate about AI, Cloud Technologies, and building scalable,
+              impactful software solutions. With hands-on experience in Google
+              Cloud Platform, Docker, MongoDB, and microservices architecture, I
+              focus on client-centric design and solving real-world problems
+              through robust engineering practices. <br></br><br></br>
+              🔧 My technical toolkit
+              includes API development, CI/CD pipelines, and cloud-native
+              systems, supported by a strong foundation in full-stack
+              development and machine learning. I’ve contributed to diverse
+              projects—from smart meal planners and health-focused chatbots to
+              AI-driven upskilling platforms—delivering production-ready
+              applications that combine innovation, performance, and
+              user-centric design. <br></br>
+              <br></br>Let’s build something extraordinary together!
             </p>
           </div>
 

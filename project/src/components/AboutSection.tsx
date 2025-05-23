@@ -36,7 +36,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ darkMode }) => {
                 darkMode ? "text-blue-400" : "text-blue-600"
               }`}
             >
-              Full Stack Developer
+              Full Stack Developer | Software Developer
             </h3>
 
             <p
@@ -121,7 +121,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ darkMode }) => {
             </div>
 
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/10fSu6YWarnDhX9pAmRSXA9uQ7D9VPNJ1/view"
               className={`inline-flex items-center px-6 py-3 rounded-full text-sm font-medium transition-all
                 ${
                   darkMode
@@ -143,7 +143,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ darkMode }) => {
             >
               <div className="aspect-w-4 aspect-h-5">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="src\components\Ved1.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="Vedant Kankate portrait"
                   className="object-cover w-full h-full transform transition-transform duration-500 hover:scale-105"
                 />

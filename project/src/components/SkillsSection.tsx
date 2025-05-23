@@ -7,32 +7,50 @@ type SkillsProps = {
 interface Skill {
   name: string;
   level: number;
-  category: 'frontend' | 'backend' | 'tools';
+  category: 'Programming' | 'frontend' | 'backend' | 'tools';
 }
 
 const SkillsSection: React.FC<SkillsProps> = ({ darkMode }) => {
   const skills: Skill[] = [
+    // Programming skills
+    { name: 'Java', level: 90, category: 'Programming' },
+    { name: 'C/C++', level: 85, category: 'Programming' },
+    { name: 'Linux', level: 85, category: 'Programming' },
+    { name: 'CMD', level: 70, category: 'Programming' },
+    { name: 'Kotlin', level: 85, category: 'Programming' },
+    { name: 'SQL', level: 60, category: 'Programming' },
+    { name: 'Assembly Language', level: 55, category: 'Programming' },
+
     // Frontend skills
     { name: 'HTML & CSS', level: 90, category: 'frontend' },
     { name: 'JavaScript', level: 85, category: 'frontend' },
     { name: 'React.js', level: 85, category: 'frontend' },
     { name: 'TypeScript', level: 80, category: 'frontend' },
     { name: 'Next.js', level: 75, category: 'frontend' },
+    { name: 'Melt.js', level: 75, category: 'frontend' },
+    { name: 'Figma', level: 75, category: 'frontend' },
     
     // Backend skills
     { name: 'Node.js', level: 85, category: 'backend' },
     { name: 'Express.js', level: 80, category: 'backend' },
     { name: 'Python', level: 75, category: 'backend' },
     { name: 'MongoDB', level: 80, category: 'backend' },
-    { name: 'PostgreSQL', level: 75, category: 'backend' },
+    { name: 'MySQL', level: 80, category: 'backend' },
+    { name: 'REST APIs', level: 80, category: 'backend' },
+    { name: 'Google Marketplace', level: 80, category: 'backend' },
     
     // Tools & Others
     { name: 'Git & GitHub', level: 85, category: 'tools' },
-    { name: 'Docker', level: 70, category: 'tools' },
-    { name: 'AWS', level: 65, category: 'tools' },
+    { name: 'Google Cloud Platform', level: 70, category: 'tools' },
     { name: 'Linux', level: 80, category: 'tools' },
+    { name: 'AWS', level: 70, category: 'tools' },
+    { name: 'FireBase', level: 85, category: 'tools' },
+    { name: 'Docker', level: 85, category: 'tools' },
+    { name: 'Kubernates', level: 70, category: 'tools' },
+    { name: 'FlutterFlow', level: 70, category: 'tools' },
   ];
 
+  const programmingSkills = skills.filter(skill => skill.category === 'Programming');
   const frontendSkills = skills.filter(skill => skill.category === 'frontend');
   const backendSkills = skills.filter(skill => skill.category === 'backend');
   const toolSkills = skills.filter(skill => skill.category === 'tools');
@@ -69,6 +87,16 @@ const SkillsSection: React.FC<SkillsProps> = ({ darkMode }) => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Programming Skills */}
+          <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-gray-50'} shadow-lg transition-transform hover:scale-105`}>
+            <h3 className={`text-xl font-bold mb-6 pb-2 border-b ${darkMode ? 'border-gray-700 text-blue-400' : 'border-gray-200 text-blue-600'}`}>
+              Programming
+            </h3>
+            {programmingSkills.map((skill) => (
+              <SkillBar key={skill.name} name={skill.name} level={skill.level} />
+            ))}
+          </div>
+
           {/* Frontend Skills */}
           <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-gray-50'} shadow-lg transition-transform hover:scale-105`}>
             <h3 className={`text-xl font-bold mb-6 pb-2 border-b ${darkMode ? 'border-gray-700 text-blue-400' : 'border-gray-200 text-blue-600'}`}>
