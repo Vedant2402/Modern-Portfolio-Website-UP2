@@ -143,9 +143,9 @@ const AboutSection: React.FC<AboutSectionProps> = ({ darkMode }) => {
             >
               <div className="aspect-w-4 aspect-h-5">
                 <img
-                  src="src\components\Ved1.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Vedant Kankate portrait"
-                  className="object-cover w-full h-full transform transition-transform duration-500 hover:scale-105"
+                src="/Ved1.jpg"
+                alt="Vedant Kankate portrait"
+                className="object-cover w-full h-full transform transition-transform duration-500 hover:scale-105"
                 />
               </div>
 
