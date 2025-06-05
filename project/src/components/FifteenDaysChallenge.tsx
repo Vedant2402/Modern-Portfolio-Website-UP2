@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from 'lucide-react';
 
 type FifteenDaysChallengeProps = {
@@ -18,7 +18,7 @@ const FifteenDaysChallenge: React.FC<FifteenDaysChallengeProps> = ({ darkMode })
   const projects: Project[] = [
     {
       id: 1,
-      name: 'Day 1 - Static Portfolio',
+      name: 'Day 1 - Static Portfolio Website',
       description: 'A clean and responsive personal portfolio built using React and modern CSS techniques.',
       githubUrl: 'https://github.com/Vedant2402/Static-Portfolio',
       liveUrl: 'https://vedant-kankate1.netlify.app/',
