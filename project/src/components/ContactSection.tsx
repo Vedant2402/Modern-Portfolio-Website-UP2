@@ -23,15 +23,15 @@ const ContactSection: React.FC<ContactSectionProps> = ({ darkMode }) => {
     e.preventDefault();
 
     emailjs.send(
-      'YOUR_SERVICE_ID',         // 🔁 Replace with your EmailJS service ID
-      'YOUR_TEMPLATE_ID',        // 🔁 Replace with your EmailJS template ID
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,         // 🔁 Replace with your EmailJS service ID
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,        // 🔁 Replace with your EmailJS template ID
       {
         from_name: formData.name,
         reply_to: formData.email,
         subject: formData.subject,
         message: formData.message,
       },
-      'YOUR_PUBLIC_KEY'          // 🔁 Replace with your EmailJS public key
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY          // 🔁 Replace with your EmailJS public key
     ).then(
       (result) => {
         console.log(result.text);
