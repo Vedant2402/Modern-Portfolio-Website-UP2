@@ -87,6 +87,30 @@ const FifteenDaysChallenge: React.FC<FifteenDaysChallengeProps> = ({ darkMode })
       githubUrl: 'https://github.com/Vedant2402/Font-Review-Tool',
       liveUrl: 'https://toolpreview.netlify.app/',
       techStack: ['React', 'Google Fonts API', 'Styled Components']
+    },
+    {
+      id: 10,
+      name: 'Day 10 - Portfolio Website',
+      description: 'Advanced, full-featured personal website styled to reflect a creative and professional identity.',
+      githubUrl: 'https://github.com/Vedant2402/Modern-Portfolio-Website-UP2',
+      liveUrl: 'https://vedant-kankate.netlify.app/',
+      techStack: ['React', 'Google Fonts API', 'TypeScript']
+    },
+    {
+      id: 11,
+      name: 'Day 11 - Nutriagent - Food Nutrition App',
+      description: 'Search for food items and get nutritional insights using the Edamam API.',
+      githubUrl: 'https://github.com/Vedant2402/Nutriagent',
+      liveUrl: 'https://nutriagent.netlify.app/',
+      techStack: ['React', 'React Router', 'Firebase Auth','Tailwind CSS']
+    },
+    {
+      id: 12,
+      name: 'Day 12 - AI Quotes Generator',
+      description: 'Generate motivational or famous quotes using AI and display them dynamically with animations.',
+      githubUrl: 'https://github.com/Vedant2402/AI-quotes-generator',
+      liveUrl: 'https://aiquotegenerator1.netlify.app/',
+      techStack: ['React', 'Quotable API', 'Framer Motion', 'Swiper.js']
     }
   ];
 

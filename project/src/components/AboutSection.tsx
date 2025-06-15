@@ -101,7 +101,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ darkMode }) => {
                 <p
                   className={`${darkMode ? "text-gray-300" : "text-gray-600"}`}
                 >
-                  Pune, Maharashtra, India
+                  Los Angeles, California, USA
                 </p>
               </div>
               <div>
