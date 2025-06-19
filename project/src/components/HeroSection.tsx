@@ -100,7 +100,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
             style={{ animationDelay: "1s", animationFillMode: "forwards" }}
           >
             <a
-              href="#contact"
+              href="https://drive.google.com/file/d/12AKuIvJ66cenYPWhdXpUThyNhOfs1YwY/view?usp=view"
               className={`px-6 py-3 rounded-full text-sm font-medium transition-all
                 ${
                   darkMode
@@ -109,7 +109,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
                 } 
                 transform hover:scale-105 hover:shadow-lg`}
             >
-              Get in touch
+              Download Resume
             </a>
             <a
               href="#projects"
@@ -123,6 +123,19 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
             >
               View my work
             </a>
+            <a
+              href="#contact"
+              className={`px-6 py-3 rounded-full text-sm font-medium transition-all
+                ${
+                  darkMode
+                    ? "bg-blue-600 hover:bg-blue-700 text-white"
+                    : "bg-blue-600 hover:bg-blue-700 text-white"
+                } 
+                transform hover:scale-105 hover:shadow-lg`}
+            >
+              Get in touch
+            </a>
+            
           </div>
 
           <div
