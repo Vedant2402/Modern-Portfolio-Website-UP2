@@ -16,10 +16,21 @@ interface Experience {
 const ExperienceSection: React.FC<ExperienceSectionProps> = ({ darkMode }) => {
   const experiences: Experience[] = [
     {
+      title: 'Orientation Leader',
+      company: 'New Student & Family Engagement Dept, California State University - Los Angeles',
+      location: 'Los Angeles',
+      period: 'June 2025 - July 2025',
+      description: [
+        'Guided incoming students and families through orientation programs, ensuring a smooth and informed transition into university life.',
+        'Facilitated connections between new students and campus resources, academic programs, and support services to foster early engagement.',
+        'Promoted a welcoming and inclusive environment, helping students understand university policies, build community, and feel confident navigating campus life.'
+      ]
+    },
+    {
       title: 'Graduate Assistant',
       company: 'California State University - Los Angeles',
       location: 'Los Angeles',
-      period: 'Jan 2025 - Present',
+      period: 'Jan 2025 - June 2025',
       description: [
         'Designed and deployed an experimental server environment on AWS, optimizing metadata processing for an Entity Recognition Model.',
         'Assisted in data preprocessing for a 50,000+ text dataset from the Gutenberg Project, improving text classification accuracy.',

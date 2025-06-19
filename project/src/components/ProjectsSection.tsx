@@ -20,6 +20,16 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
   const projects: Project[] = [
     {
       id: 1,
+      title: 'USA Smoke Forecast Visualizer',
+      description: 'The Smoke Forecast Visualizer* is an Android app built with Kotlin and Jetpack Compose that displays real-time weather and wildfire smoke data through interactive heatmaps and forecasts. It features AQI insights, 12-hour forecasts, and location-based smoke tracking to help users monitor environmental conditions effectively.',
+      imageUrl: 'https://images.pexels.com/photos/51951/forest-fire-fire-smoke-conservation-51951.jpeg',
+      category: 'mobile',
+      githubUrl: 'https://github.com/Vedant2402/Smoke-Forecast-Visualizer',
+      liveUrl: 'https://github.com/Vedant2402/Smoke-Forecast-Visualizer',
+      tags: ['Andorid Studio', 'Firebase', 'Kotlin', 'Mobile Development']
+    },
+    {
+      id: 2,
       title: 'Meal Planner Application',
       description: 'Developed a 100% scalable Meal Planner Application using Node.js, Express.js, MongoDB Cloud Server, and Svelte.js, integrating the Spoonacular API for meal search & planning.',
       imageUrl: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -28,7 +38,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       tags: ['Node.js', 'Express.js', 'MongoDB', 'Svelte.js', 'REST API']
     },
     {
-      id: 2,
+      id: 3,
       title: 'ML-Powered Prakriti Assessment Chatbot',
       description: 'Developed an AI-driven chatbot for Kayayurveda Clinic, helping users understand their Prakriti through ML-based analysis with 85%+ accuracy.',
       imageUrl: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -37,7 +47,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       tags: ['Python', 'Machine Learning', 'NLP', 'Random Forest']
     },
     {
-      id: 3,
+      id: 4,
       title: 'Sambhav - Women Health Web Application',
       description: 'Developed a mobile application to assist 1,000+ underprivileged women in upskilling through interactive learning modules using Flutter and Firebase.',
       imageUrl: 'https://images.pexels.com/photos/7089629/pexels-photo-7089629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -46,7 +56,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       tags: ['Flutter', 'Firebase', 'AWS S3', 'Mobile Development']
     },
     {
-      id: 4,
+      id: 5,
       title: 'Fruit Quality Assessment ML Model',
       description: 'Implemented a 5-layer CNN model using TensorFlow and Keras to classify fruit quality with 90%+ accuracy, processing 10,000+ fruit images.',
       imageUrl: 'https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
