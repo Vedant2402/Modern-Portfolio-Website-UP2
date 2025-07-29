@@ -87,8 +87,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               includes API development, CI/CD pipelines, and cloud-native
               systems, supported by a strong foundation in full-stack
               development and machine learning. I’ve contributed to diverse
-              projects—from smart meal planners and health-focused chatbots to
-              AI-driven upskilling platforms—delivering production-ready
+              projects, from smart meal planners and health-focused chatbots to
+              AI-driven upskilling platforms, delivering production-ready
               applications that combine innovation, performance, and
               user-centric design. <br></br>
               Let’s build something extraordinary together!
@@ -153,7 +153,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               }`}
               aria-label="GitHub"
             >
-              <Github size={20} />
+              <Github size={30} />
             </a>
             <a
               href="https://www.linkedin.com/in/vedant-kankate/"
@@ -166,20 +166,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               }`}
               aria-label="LinkedIn"
             >
-              <Linkedin size={20} />
-            </a>
-            <a
-              href="https://vedant-kankate.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`p-2 rounded-full transition-colors ${
-                darkMode
-                  ? "text-gray-400 hover:text-white hover:bg-gray-800"
-                  : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-              }`}
-              aria-label="Twitter"
-            >
-              <Twitter size={20} />
+              <Linkedin size={30} />
             </a>
           </div>
         </div>
