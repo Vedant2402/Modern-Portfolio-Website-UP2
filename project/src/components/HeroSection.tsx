@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowDown, Github, Linkedin } from "lucide-react";
 
 type HeroSectionProps = {
   darkMode: boolean;
