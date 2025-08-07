@@ -100,7 +100,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
             style={{ animationDelay: "1s", animationFillMode: "forwards" }}
           >
             <a
-              href="https://drive.google.com/file/d/1sMmed6udZnZRr67DbylSLmu9rUxqVGfO/view?usp=view"
+              href="https://drive.google.com/file/d/1-WS8t7pe12xhalDjC18JSVwNGMesKjez/view?usp=view"
               className={`px-6 py-3 rounded-full text-sm font-medium transition-all
                 ${
                   darkMode
