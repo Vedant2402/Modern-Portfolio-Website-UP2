@@ -118,7 +118,7 @@ const FifteenDaysChallenge: React.FC<FifteenDaysChallengeProps> = ({ darkMode })
       description: 'A beautiful, intuitive platform for tracking your emotions, journaling your thoughts, and discovering patterns in your mental wellness journey.',
       githubUrl: 'https://github.com/Vedant2402/Emotional-Health-Journal',
       liveUrl: 'https://e-healthjournal.netlify.app/',
-      techStack: ['React', 'Quotable API', 'Framer Motion', 'Swiper.js']
+      techStack: ['React', 'Firebase Authentication', 'PostCSS', 'Autoprefixer','Firebase Analytic']
     }
   ];
 
