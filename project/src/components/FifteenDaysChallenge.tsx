@@ -111,6 +111,14 @@ const FifteenDaysChallenge: React.FC<FifteenDaysChallengeProps> = ({ darkMode })
       githubUrl: 'https://github.com/Vedant2402/AI-quotes-generator',
       liveUrl: 'https://aiquotegenerator1.netlify.app/',
       techStack: ['React', 'Quotable API', 'Framer Motion', 'Swiper.js']
+    },
+    {
+      id: 13,
+      name: 'Day 13 - MindBloom - Your Emotional Wellness Journey',
+      description: 'A beautiful, intuitive platform for tracking your emotions, journaling your thoughts, and discovering patterns in your mental wellness journey.',
+      githubUrl: 'https://github.com/Vedant2402/Emotional-Health-Journal',
+      liveUrl: 'https://e-healthjournal.netlify.app/',
+      techStack: ['React', 'Quotable API', 'Framer Motion', 'Swiper.js']
     }
   ];
 
