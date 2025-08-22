@@ -121,7 +121,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ darkMode }) => {
             </div>
 
             <a
-              href="https://drive.google.com/file/d/1-WS8t7pe12xhalDjC18JSVwNGMesKjez/view?usp=view"
+              href="https://drive.google.com/file/d/1qF4Q21NVo0bqWUru4AqT61uKSB83DeXu/view?usp=view"
               className={`inline-flex items-center px-6 py-3 rounded-full text-sm font-medium transition-all
                 ${
                   darkMode
