@@ -65,6 +65,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               <span className="inline-block">Software Developer</span>
               <span className="mx-3 inline-block">•</span>
               <span className="inline-block">Problem Solver</span>
+              <span className="mx-3 inline-block">•</span>
+              <span className="inline-block">Front-End Developer</span>
+              <span className="mx-3 inline-block">•</span>
             </h3>
           </div>
 
@@ -100,7 +103,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
             style={{ animationDelay: "1s", animationFillMode: "forwards" }}
           >
             <a
-              href="https://drive.google.com/file/d/1qF4Q21NVo0bqWUru4AqT61uKSB83DeXu/view?usp=view"
+              href="https://drive.google.com/file/d/1FM0hUBWjFBMd0pV8AALGO6yhfhtsXntr/view?usp=view"
               className={`px-6 py-3 rounded-full text-sm font-medium transition-all
                 ${
                   darkMode
