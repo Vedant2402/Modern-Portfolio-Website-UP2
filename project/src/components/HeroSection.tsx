@@ -65,9 +65,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
               <span className="inline-block">Software Developer</span>
               <span className="mx-3 inline-block">•</span>
               <span className="inline-block">Problem Solver</span>
-              <span className="mx-3 inline-block">•</span>
-              <span className="inline-block">Front-End Developer</span>
-              <span className="mx-3 inline-block">•</span>
             </h3>
           </div>
 
