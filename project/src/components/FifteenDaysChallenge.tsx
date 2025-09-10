@@ -119,6 +119,22 @@ const FifteenDaysChallenge: React.FC<FifteenDaysChallengeProps> = ({ darkMode })
       githubUrl: 'https://github.com/Vedant2402/Emotional-Health-Journal',
       liveUrl: 'https://e-healthjournal.netlify.app/',
       techStack: ['React', 'Firebase Authentication', 'PostCSS', 'Autoprefixer','Firebase Analytic']
+    },
+    {
+      id: 14,
+      name: 'Day 14 - ATS Friendly Cover Letter Generator',
+      description: 'A beautiful, retro-styled web application for generating personalized cover letters using AI. Built with React, TypeScript, Firebase Authentication, and featuring a vintage aesthetic.',
+      githubUrl: 'https://github.com/Vedant2402/ATS-Friendly-Cover-Letter',
+      liveUrl: 'https://coverletter-ai.netlify.app/',
+      techStack: ['React 18', 'Firebase Authentication', 'TypeScript', 'Autoprefixer','Firestore']
+    },
+    {
+      id: 15,
+      name: 'Day 15 - Prompt-Engine-App',
+      description: '(Private Repo) An AI-powered prompt ideation and generation web application. Users can sign up, generate structured prompts across categories (writing, coding, business, education), refine them, and export content. The interface supports light/dark themes, animated backgrounds, and responsive design.',
+      githubUrl: 'https://github.com/Vedant2402/Prompt-Engine-App',
+      liveUrl: 'https://prompthelperr.netlify.app/',
+      techStack: ['Cohere API', 'Firebase Auth', 'TypeScript', 'Vite','Tailwind CSS']
     }
   ];
 
